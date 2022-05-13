@@ -8,5 +8,5 @@ for line in f:
             continue               
         else :                     
             lst.append(element)    
-lst.sort( )                         
+lst.sort()                         
 print (lst)                        

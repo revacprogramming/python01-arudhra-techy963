@@ -1,4 +1,4 @@
-fname = raw_input("Enter file name: ")
+fname = input("Enter file name: ")
 f = open(fname)
 count = 0
 total = 0

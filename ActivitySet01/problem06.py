@@ -6,7 +6,7 @@ while True:
     try:
         
         num = input("Enter a number: ")
-        if num == "done":
+        if num == "done" :
             break
         
         n = int(num)

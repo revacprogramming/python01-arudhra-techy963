@@ -1,4 +1,4 @@
-hrs = input("Enter Hours:")
+hrs = input("Enter Hours: ")
 h = float(hrs)
 rate = input("Enter rate:")
 r = float(rate)

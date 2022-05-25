@@ -4,6 +4,6 @@ x = text.find(":")
 
 y = text[x+1:]
 
-f = float(y )
+f = float(y)
 
 print(f)

@@ -1,4 +1,4 @@
-text = "X-DSPAM-Confidence:0.8475"
+text = "X-DSPAM-Confidence:   0.8475"
 
 x = text.find(":")
 

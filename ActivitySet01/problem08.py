@@ -7,7 +7,7 @@ for line in f:
         continue
         
     t=line.find("0")
-    number= float(line[t:])
+    number= float(line[t:] )
     count = count + 1
     total = total + number
 

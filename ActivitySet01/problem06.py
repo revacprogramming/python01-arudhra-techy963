@@ -14,7 +14,7 @@ while True:
         smallest = n if smallest > n or smallest == 0 else smallest
         
     except:
-        print("Invalid input")
+        print("Invalid input" )
         
         
 print("Maximum is", largest)

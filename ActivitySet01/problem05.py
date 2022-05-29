@@ -4,7 +4,7 @@ def computepay(h, r):
     	p = h * r
     
     elif h > 40:
-        p = 40*r + (h - 40 ) *1.5 *r
+        p = 40*r + (h - 40) *1.5 *r
 
     return p
 

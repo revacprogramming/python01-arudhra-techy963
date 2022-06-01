@@ -1,18 +1,21 @@
 
-def add(a, b):
-    pass  # ...
 
+def input2no():
+  a,b = int(input("input? "))
+  return a,b
+
+def add(a, b):
+  c = a + b
+  return c
 
 def output(a, b, sum):
-    pass  # ...
+  print(a,"+",b," is ",sum)
 
 
 def main():
-    a, b = input_two_numbers()
-    sum = add(a, b)
+  a, b = input2no()
+  sum = add(a, b)
+  output(a, b, sum)
 
-    output(a, b, sum)
-
-
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+main()

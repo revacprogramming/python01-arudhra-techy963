@@ -15,7 +15,7 @@ def output(a, b, sum):
 def main():
   a, b = input2no()
   sum = add(a, b)
-  output(a, b, sum)
+  output(a, b, sum )
 
 #if __name__ == '__main__':
 main()

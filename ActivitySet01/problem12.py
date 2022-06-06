@@ -3,7 +3,7 @@
 
 import re
 
-hand = open( "regex_sum_1549731.txt")
+hand = open("regex_sum_1549731.txt")
 x=list()
 
 for line in hand:

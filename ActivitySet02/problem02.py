@@ -11,7 +11,7 @@ def add(a, b):
 
 
 def output(a, b, sum2):
-    print(a, "+", b, " is ", sum2)
+    print(a, "+", b, " is ",sum2)
 
 
 def main():

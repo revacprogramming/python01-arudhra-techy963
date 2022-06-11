@@ -9,6 +9,6 @@ def main():
   b = int(input("Enter b = "))
           
   c = add(a, b)
-  print("The result = " ,int(c))
+  print("The result = ",int(c))
 
 main()

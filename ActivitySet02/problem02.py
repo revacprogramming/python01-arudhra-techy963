@@ -15,7 +15,7 @@ def output(a, b, sum2):
 
 
 def main():
-    a, b = input2no( )
+    a, b = input2no()
     sum2 = add(a, b)
     output(a, b, sum2)
 

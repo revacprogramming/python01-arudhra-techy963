@@ -8,7 +8,7 @@ c.execute("""CREATE TABLE Ages(
              age INTEGER
              )"""
          )
-def add_people(sName, iAge):
+def add_people(sName, iAge) :
     with conn:
         c.execute("INSERT INTO Ages VALUES (:name, :age)", {'name':sName, 'age':iAge})
 

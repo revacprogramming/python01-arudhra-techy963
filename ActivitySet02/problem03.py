@@ -5,7 +5,7 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-    cs = cs.split()
+    cs = cs.split( )
     return cs
 
 
